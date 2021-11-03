@@ -7,7 +7,6 @@ import PatientsScreen from './Screens/PatientsScreen';
 import RecordsScreen from './Screens/RecordsScreen';
 import Icon  from 'react-native-vector-icons/Ionicons';
 import  HomeScreen from './Screens/HomeScreen';
-
 import { StyleSheet,TextInput,View, Text, TouchableHighlight,Button,Alert,TouchableOpacity} from 'react-native'
 
 Icon.loadFont()
@@ -21,7 +20,9 @@ function App ()
 
   <NavigationContainer>
   <Tab.Navigator
-  screenOptions={{
+  screenOptions=
+  {{
+
     tabBarLabelStyle: { fontSize: 40 },
     tabBarItemStyle: { width: 100 },
     tabBarStyle: { backgroundColor: 'powderblue' }},
